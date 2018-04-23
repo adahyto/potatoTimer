@@ -1,0 +1,67 @@
+html {
+  font-size:62.5%;
+  font-family:'Montserrat', sans-serif;
+  font-weight:bold;
+}
+body {background-color:#226764;}
+header {
+  text-align:center;
+  font-size:1.3em;
+}
+header, section {
+  color:#628A88;
+}
+section{
+  padding-top:35px;
+  font-size:1.4em;
+}
+table span{
+  color:#044845;
+  font-size:2.3em;
+  font-weight:bolder;
+}
+table td{
+  text-align:center;
+}
+#space{
+  width:55px;
+}
+button{
+  border:1px solid #044845;
+  background:transparent;
+  color:#628A88;
+  cursor:pointer;
+}
+main{
+  width:100%;
+  text-align:center;
+  color:#044845;
+  font-size:3.0em;
+  width:100%;
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+}
+#timer{
+  cursor:pointer;
+  border:2px solid #044845;
+  font-size:2em;
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  line-height:200px;
+  text-align:center;
+}
+#resetBtn{
+  height:25px;
+  border:2px solid #044845;
+}
