@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Flower</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PomodoroTimer</h1>
+  </header>
+  <section>
+    <div id="control-panel">
+      <table align="center">
+        <tr>
+          <td>BREAK LENGTH</td>
+          <td>SESSION LENGTH</td>
+        </tr>
+        <tr>
+          <td>
+            <button id="sMinus">-</button> <span id="break-length">5</span>
+            <button id="bPlus">+</button>
+          </td>
+          <td>
+            <button id="sMinus">-</button> <span id="session-length">25</span>
+            <button id="sPlus">+</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <main>
+    <div id="container">
+      <div class="timeContainer">
+        <p id="title">Session</p>
+        <p id="timer">25</p>
+        <span id="fill"></span>
+      </div>
+    </div>
+    <div id="reset">
+      <p>
+        <button id="resetBtn" onclick="reset()">RESET</button>
+      </p>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
