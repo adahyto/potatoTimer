@@ -10,4 +10,4 @@ services:
     build:
       context: ./nginx
     ports:
-      - "87:80"
+      - "92:80"
